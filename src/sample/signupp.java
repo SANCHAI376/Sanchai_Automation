@@ -40,7 +40,7 @@ public class signupp{
          driver.switchTo().alert().accept();
          Thread.sleep(2000);
          driver.quit();
-         driver.close();
+         
     }
          
         
