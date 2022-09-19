@@ -1,0 +1,214 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Sep 19 09:49:22 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>161 seconds (161699 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='sample.homepage.homepage8()'><b>homepage8</b><br>Test class: sample.homepage</td>
+<td></td>
+<td>5</td>
+<td>sample.homepage@485966cc</td></tr>
+<tr>
+<td title='sample.signupp.testdata()'><b>testdata</b><br>Test class: sample.signupp<br>Parameters: sanchai, san, sanchai@gmail.com, s1@, 12334$%4555, 05/20/2022, hai</td>
+<td></td>
+<td>2</td>
+<td>sample.signupp@47987356</td></tr>
+<tr>
+<td title='sample.homepage.homepage3()'><b>homepage3</b><br>Test class: sample.homepage</td>
+<td></td>
+<td>5</td>
+<td>sample.homepage@485966cc</td></tr>
+<tr>
+<td title='sample.signupp.testdata()'><b>testdata</b><br>Test class: sample.signupp<br>Parameters: sanchai, san, sanchai@gmail.com, s1@wh33h, 12334444555, 05/20/2022, hai</td>
+<td></td>
+<td>2</td>
+<td>sample.signupp@47987356</td></tr>
+<tr>
+<td title='sample.signupp.testdata()'><b>testdata</b><br>Test class: sample.signupp<br>Parameters: rasdfghjkihugytrsdfgh, raqwertyuiiiiiiiiiiopppppppppo, sanchai@gmail, Raaghab243626@#$%&HRRt, sanchairlss@gmail.com, 05/22/2000, 1234567</td>
+<td></td>
+<td>2</td>
+<td>sample.signupp@47987356</td></tr>
+<tr>
+<td title='sample.signupp.testdata()'><b>testdata</b><br>Test class: sample.signupp<br>Parameters: sanchai, san, sanchai@gmail.com, san@123, 123445566666, 05/20/2022, hai</td>
+<td></td>
+<td>2</td>
+<td>sample.signupp@47987356</td></tr>
+<tr>
+<td title='sample.signin.signin2()'><b>signin2</b><br>Test class: sample.signin</td>
+<td></td>
+<td>5</td>
+<td>sample.signin@76c3e77a</td></tr>
+<tr>
+<td title='sample.homepage.homepage2()'><b>homepage2</b><br>Test class: sample.homepage</td>
+<td></td>
+<td>4</td>
+<td>sample.homepage@485966cc</td></tr>
+<tr>
+<td title='sample.signupp.testdata()'><b>testdata</b><br>Test class: sample.signupp<br>Parameters: sanchai, san, sanchai@gmail.com, s1@, 12334444555, 05/20/2022, hai</td>
+<td></td>
+<td>2</td>
+<td>sample.signupp@47987356</td></tr>
+<tr>
+<td title='sample.signin.signin4()'><b>signin4</b><br>Test class: sample.signin</td>
+<td></td>
+<td>5</td>
+<td>sample.signin@76c3e77a</td></tr>
+<tr>
+<td title='sample.signupp.testdata()'><b>testdata</b><br>Test class: sample.signupp<br>Parameters: sanchai, san, @gmail.com, san@123, 123445566666, 05/20/2000, hai</td>
+<td></td>
+<td>2</td>
+<td>sample.signupp@47987356</td></tr>
+<tr>
+<td title='sample.signupp.testdata()'><b>testdata</b><br>Test class: sample.signupp<br>Parameters: sanchai, san, sanchai@gmail.com, s1@, 12334444555, 05/20/2021, hai</td>
+<td></td>
+<td>2</td>
+<td>sample.signupp@47987356</td></tr>
+<tr>
+<td title='sample.signupp.testdata()'><b>testdata</b><br>Test class: sample.signupp<br>Parameters: sanchai, san, sanchai@gmail.com, s1@, 12334444555, 05/20/2000, hai</td>
+<td></td>
+<td>2</td>
+<td>sample.signupp@47987356</td></tr>
+<tr>
+<td title='sample.signupp.testdata()'><b>testdata</b><br>Test class: sample.signupp<br>Parameters: sa, sa, sanchai@gmail, sa, dfghggffd, 05/20/2000, </td>
+<td></td>
+<td>2</td>
+<td>sample.signupp@47987356</td></tr>
+<tr>
+<td title='sample.signupp.testdata()'><b>testdata</b><br>Test class: sample.signupp<br>Parameters: sanchai, san, sanchai@gmail.com, s1@, 12334444555123433, 05/20/2022, hai</td>
+<td></td>
+<td>2</td>
+<td>sample.signupp@47987356</td></tr>
+<tr>
+<td title='sample.signin.signin3()'><b>signin3</b><br>Test class: sample.signin</td>
+<td></td>
+<td>5</td>
+<td>sample.signin@76c3e77a</td></tr>
+<tr>
+<td title='sample.signupp.testdata()'><b>testdata</b><br>Test class: sample.signupp<br>Parameters: sanchai, san, sanchai@gmail.com, s, 12334444555, 05/20/2022, hai</td>
+<td></td>
+<td>2</td>
+<td>sample.signupp@47987356</td></tr>
+<tr>
+<td title='sample.signupp.testdata()'><b>testdata</b><br>Test class: sample.signupp<br>Parameters: sanchai, san, sanchai@gmail.com, san@123, 1234567898, 05/20/2022, qwertyuiopasdfghjkl</td>
+<td></td>
+<td>2</td>
+<td>sample.signupp@47987356</td></tr>
+<tr>
+<td title='sample.homepage.homepage6()'><b>homepage6</b><br>Test class: sample.homepage</td>
+<td></td>
+<td>5</td>
+<td>sample.homepage@485966cc</td></tr>
+<tr>
+<td title='sample.signin.signin5()'><b>signin5</b><br>Test class: sample.signin</td>
+<td></td>
+<td>6</td>
+<td>sample.signin@76c3e77a</td></tr>
+<tr>
+<td title='sample.signupp.testdata()'><b>testdata</b><br>Test class: sample.signupp<br>Parameters: sanchai, san, sanchai@gmail.com, s1@aw2@!wssssjjj, 12334444555, 05/20/2022, hai</td>
+<td></td>
+<td>2</td>
+<td>sample.signupp@47987356</td></tr>
+<tr>
+<td title='sample.signupp.testdata()'><b>testdata</b><br>Test class: sample.signupp<br>Parameters: sanchai, san, sanchai@gmail.com, s1@, 9870915101, 05/20/2022, hai</td>
+<td></td>
+<td>2</td>
+<td>sample.signupp@47987356</td></tr>
+<tr>
+<td title='sample.signin.signin()'><b>signin</b><br>Test class: sample.signin</td>
+<td></td>
+<td>11</td>
+<td>sample.signin@76c3e77a</td></tr>
+<tr>
+<td title='sample.homepage.homepage4()'><b>homepage4</b><br>Test class: sample.homepage</td>
+<td></td>
+<td>5</td>
+<td>sample.homepage@485966cc</td></tr>
+<tr>
+<td title='sample.homepage.homepage7()'><b>homepage7</b><br>Test class: sample.homepage</td>
+<td></td>
+<td>5</td>
+<td>sample.homepage@485966cc</td></tr>
+<tr>
+<td title='sample.homepage.homepage5()'><b>homepage5</b><br>Test class: sample.homepage</td>
+<td></td>
+<td>5</td>
+<td>sample.homepage@485966cc</td></tr>
+<tr>
+<td title='sample.homepage.homepage1()'><b>homepage1</b><br>Test class: sample.homepage</td>
+<td></td>
+<td>4</td>
+<td>sample.homepage@485966cc</td></tr>
+</table><p>
+</body>
+</html>
